@@ -141,19 +141,19 @@ app.controller('AddinCtrl', function ($scope, $mdToast, $log) {
             if (value == "1") {
                 //Sending Email with secureportal
                 EncryptedMethod = { "x-encryptmethod": "secureportal", "x-encryptplugin": "yes" }
-                EncryptedMessage = "Encrypt Via Secure Portal";
+                EncryptedMessage = "Secure Portal, the most secure method of delivery, requires the recipient to authenticate with a password or two-factor before being able to access the encrypted message.";
                 // $scope.SetExpirationDays("0");
 
             }
             else if (value == "2") {
                 // Sending Email with Encrypt via Easy-Secure"
                 EncryptedMethod = { "x-encryptmethod": "secureportal", "X-easy-secure": "Y", "x-encryptplugin": "yes" }
-                EncryptedMessage = "Encrypt via Easy-Secure";
+                EncryptedMessage = "Easy Secure, embeds an access-key in a unique link sent to the recipient that provides “one-click” access to the encrypted message.";
 
             } else if (value == "3") {
                 //   Sending Email with TLS Verify
                 EncryptedMethod = { "x-encryptmethod": "verifyopportunistic", "x-em-encrypt": "yes", "x-em-verification": "verify", "x-encryptplugin": "yes" }
-                EncryptedMessage = "Encrypt with TLS Verify";
+                EncryptedMessage = "TLS Verify, utilizes only secure versions of the Transport Layer Security protocol to secure a message while in route to its destination.  The recipient does not have to take additional steps to view the secure email.";
                 ClearEverything();
             }
             else {
