@@ -229,12 +229,12 @@
                             </div>
                             <div flex="80">
                                 <span class="ButtonText">
-                                    Unprotected
+                                    None
                                 </span>
                             </div>
                         </div>
                         <span class="tooltiptext">
-                            Unprotected, Not using any encryption method.
+                            None, not forcing any encryption method.
                         </span>
                     </md-radio-button>
                     <md-radio-button aria-label="" class="md-primary tooltip" style="margin: 8px 0 0 0; "
@@ -256,7 +256,7 @@
                         </span>
                     </md-radio-button>
 
-                    <md-radio-button class="md-primary tooltip"
+                    <!--<md-radio-button class="md-primary tooltip"
                                      value="2"
                                      style="margin: 8px 0 0 0;">
 
@@ -274,7 +274,7 @@
                             Easy-Secure, embeds an access-key in a unique link sent to the
                             recipient that provides "one-click" access to the encrypted message.
                         </span>
-                    </md-radio-button>
+                    </md-radio-button>-->
 
                     <md-radio-button class="md-primary tooltip"
                                      value="3"
@@ -314,7 +314,7 @@
 
             </fieldset>-->
 
-            <fieldset style="margin-top:10px;" ng-show="EncryptionMethod ==1 || EncryptionMethod ==2">
+            <!--<fieldset style="margin-top:10px;" ng-show="EncryptionMethod ==1 || EncryptionMethod ==2">
                 <legend>Expiration Period</legend>
                 <md-input-container class="md-block">
                     <md-tooltip md-direction="top">Expiration Period</md-tooltip>
@@ -323,10 +323,10 @@
                         <md-option ng-repeat="Days in ExpirationPeriodDays" ng-value="Days">{{Days}}</md-option>
                     </md-select>
                 </md-input-container>
-            </fieldset>
-          
+            </fieldset>-->
 
-            <fieldset style="margin-top:10px;" ng-show="EncryptionMethod ==1 || EncryptionMethod ==2">
+
+            <!--<fieldset style="margin-top:10px;" ng-show="EncryptionMethod ==1 || EncryptionMethod ==2">
                 <legend>Pickup Confirmation</legend>
                 <md-radio-group class="tooltipCostume" ng-model="pickupConfirmation" ng-click="pickupConfirmSet(pickupConfirmation)" aria-labelledby="pickupConfirmation" layout="row">
                     <md-radio-button value="Y" class="md-primary">
@@ -337,9 +337,9 @@
                     </md-radio-button>
                     <md-radio-button value="N" class="md-primary">No</md-radio-button>
                 </md-radio-group>
-            </fieldset>
+            </fieldset>-->
 
-            <fieldset style="margin-top:10px;" ng-show="EncryptionMethod ==1 || EncryptionMethod ==2 || EncryptionMethod ==3 ">
+            <!--<fieldset style="margin-top:10px;" ng-show="EncryptionMethod ==1 || EncryptionMethod ==2 || EncryptionMethod ==3 ">
                 <legend>Encryption Confirmation</legend>
                 <md-radio-group class="tooltipCostume" ng-model="encryptionConfirmation" ng-click="EncryptionConfirmSet(encryptionConfirmation)" aria-labelledby="encryptionConfirmation" layout="row">
                     <md-radio-button value="Y" class="md-primary">
@@ -350,7 +350,7 @@
                     </md-radio-button>
                     <md-radio-button value="N" class="md-primary">No</md-radio-button>
                 </md-radio-group>
-            </fieldset>
+            </fieldset>-->
 
         </div>
 
@@ -374,7 +374,7 @@
                 </div>
 
 
-                <div ng-hide="EasySecurePage">
+                <!--<div ng-hide="EasySecurePage">
                     <img src="EasySecure80.png" style="display:block;margin:auto;" width="80" />
 
                     <p class="DetailHeadings">
@@ -384,7 +384,7 @@
                         Easy-Secure, embeds an access-key in a unique link sent to the
                         recipient that provides "one-click" access to the encrypted message.
                     </span>
-                </div>
+                </div>-->
 
 
                 <div ng-hide="TLSVerifyPage">
@@ -419,8 +419,8 @@
                 <i ng-click="goToPage1(1)" id="1" class="material-icons radioBtn">radio_button_unchecked</i>
                 <i ng-click="goToPage2(2)" id="2" class="material-icons radioBtn">radio_button_unchecked</i>
                 <i ng-click="goToPage3(3)" id="3" class="material-icons radioBtn">radio_button_unchecked</i>
-                <i ng-click="goToPage4(4)" id="4" class="material-icons radioBtn">radio_button_unchecked</i>
-                <i ng-click="goToNextPage()" id="5" class="material-icons radioBtn">arrow_forward</i>
+                <!--<i ng-click="goToPage4(4)" id="4" class="material-icons radioBtn">radio_button_unchecked</i>-->
+                <i ng-click="goToNextPage()" id="4" class="material-icons radioBtn">arrow_forward</i>
             </div>
 
 
@@ -435,7 +435,7 @@
 
 
 
-   
+
 
 </body>
 </html>
