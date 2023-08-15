@@ -10,12 +10,12 @@
 	<!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
 	<Id>86e29910-f0ab-49a1-8596-2802651e08b1</Id>
 	<!--Version. Updates from the store only get triggered if there is a version change. -->
-	<Version>2.0.0.3</Version>
+	<Version>2.0.0.4</Version>
 	<ProviderName>EncryptTitan</ProviderName>
 	<DefaultLocale>en-US</DefaultLocale>
 	<!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-	<DisplayName DefaultValue="Email Encryption" />
-	<Description DefaultValue="Email Encryption Add-in"/>
+	<DisplayName DefaultValue="Message Encryption" />
+	<Description DefaultValue="Message Encryption Add-in"/>
 	<IconUrl DefaultValue="https://plugin.encrypttitan.net/Icon64.png"/>
 	<SupportUrl DefaultValue="https://helpdesk.encrypttitan.com" />
 	<!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -110,13 +110,13 @@
 					<bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
 					<bt:String id="customTabLabel"  DefaultValue="My Add-in Tab"/>
 					<bt:String id="paneReadButtonLabel" DefaultValue="Display all properties"/>
-					<bt:String id="paneComposeButtonLabel" DefaultValue="Encrypt the Email"/>
+					<bt:String id="paneComposeButtonLabel" DefaultValue="Message Encryption"/>
 					<bt:String id="msgComposeGroup" DefaultValue="EncryptTitan"/>
-					<bt:String id="paneComposeSuperTipTitle" DefaultValue="Email Encryption"/>
+					<bt:String id="paneComposeSuperTipTitle" DefaultValue="Message Encryption"/>
 				</bt:ShortStrings>
 				<bt:LongStrings>
-					<bt:String id="paneComposeSuperTipDescription" DefaultValue="Opens a pane displaying all available properties. This is an example of a button that opens a task pane."/>
-					<bt:String id="paneComposeButtonLabel" DefaultValue="Opens a pane displaying all available properties. This is an example of a button that opens a task pane."/>
+					<bt:String id="paneComposeSuperTipDescription" DefaultValue="Encrypt, control, track and audit your secure email."/>
+					<bt:String id="paneComposeButtonLabel" DefaultValue="Encrypt, control, track and audit your secure email."/>
 				</bt:LongStrings>
 			</Resources>
 		</VersionOverrides>
