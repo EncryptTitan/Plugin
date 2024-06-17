@@ -315,10 +315,10 @@
             </fieldset>-->
 
             <fieldset style="margin-top:10px;" ng-show="EncryptionMethod ==1 || EncryptionMethod ==2">
-                <legend>Expiration Period (days)</legend>
+                <legend>Expiration Period (Days)</legend>
                 <md-input-container class="md-block">
                     <md-tooltip md-direction="top">Expiration Period (The number of days a secure message will be retained before purging.)</md-tooltip>
-                    <label>Expiration Period (days)</label>
+                    <label>Expiration Period (Days)</label>
                     <md-select ng-model="expirationPeriod" ng-change="SetExpirationDays(expirationPeriod)">
                         <md-option ng-repeat="Days in ExpirationPeriodDays" ng-value="Days">{{Days}}</md-option>
                     </md-select>
