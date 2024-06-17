@@ -16,7 +16,7 @@
 	<!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
 	<DisplayName DefaultValue="Message Encryption" />
 	<Description DefaultValue="Message Encryption Add-in"/>
-	<IconUrl DefaultValue="https://plugin.encrypttitan.net/Icon64.png"/>
+	<IconUrl DefaultValue="https://plugin.encrypttitan.net/EasySecure/Icon64.png"/>
 	<SupportUrl DefaultValue="https://helpdesk.encrypttitan.com" />
 	<!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
 	<AppDomains>
@@ -36,7 +36,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://plugin.encrypttitan.net/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://plugin.encrypttitan.net/EasySecure/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -97,9 +97,9 @@
 
 			<Resources>
 				<bt:Images>
-					<bt:Image id="icon16" DefaultValue="https://plugin.encrypttitan.net/Icon16.png"/>
-					<bt:Image id="icon32" DefaultValue="https://plugin.encrypttitan.net/Icon32.png"/>
-					<bt:Image id="icon80" DefaultValue="https://plugin.encrypttitan.net/Icon80.png"/>
+					<bt:Image id="icon16" DefaultValue="https://plugin.encrypttitan.net/EasySecure/Icon16.png"/>
+					<bt:Image id="icon32" DefaultValue="https://plugin.encrypttitan.net/EasySecure/Icon32.png"/>
+					<bt:Image id="icon80" DefaultValue="https://plugin.encrypttitan.net/EasySecure/Icon80.png"/>
 
 				</bt:Images>
 				<bt:Urls>
