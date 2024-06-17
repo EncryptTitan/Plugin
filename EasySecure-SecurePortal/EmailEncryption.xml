@@ -103,8 +103,8 @@
 
 				</bt:Images>
 				<bt:Urls>
-					<bt:Url id="functionFile" DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/FunctionFile.html"/>
-					<bt:Url id="messageComposeTaskPaneUrl"  DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/MessageRead.html"/>
+					<bt:Url id="functionFile" DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/EasySecure-SecurePortal/FunctionFile.html"/>
+					<bt:Url id="messageComposeTaskPaneUrl"  DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/EasySecure-SecurePortal/MessageRead.html"/>
 				</bt:Urls>
 				<bt:ShortStrings>
 					<bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
