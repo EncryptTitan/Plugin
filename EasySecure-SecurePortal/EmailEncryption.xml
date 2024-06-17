@@ -36,7 +36,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://plugin.encrypttitan.net/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -97,14 +97,14 @@
 
 			<Resources>
 				<bt:Images>
-					<bt:Image id="icon16" DefaultValue="https://plugin.encrypttitan.net/Icon16.png"/>
-					<bt:Image id="icon32" DefaultValue="https://plugin.encrypttitan.net/Icon32.png"/>
-					<bt:Image id="icon80" DefaultValue="https://plugin.encrypttitan.net/Icon80.png"/>
+					<bt:Image id="icon16" DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/Icon16.png"/>
+					<bt:Image id="icon32" DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/Icon32.png"/>
+					<bt:Image id="icon80" DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/Icon80.png"/>
 
 				</bt:Images>
 				<bt:Urls>
-					<bt:Url id="functionFile" DefaultValue="https://plugin.encrypttitan.net/FunctionFile.html"/>
-					<bt:Url id="messageComposeTaskPaneUrl"  DefaultValue="https://plugin.encrypttitan.net/MessageRead.html"/>
+					<bt:Url id="functionFile" DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/FunctionFile.html"/>
+					<bt:Url id="messageComposeTaskPaneUrl"  DefaultValue="https://plugin.encrypttitan.net/EasySecure-SecurePortal/MessageRead.html"/>
 				</bt:Urls>
 				<bt:ShortStrings>
 					<bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
